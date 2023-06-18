@@ -2,7 +2,7 @@ import './styles/App.css';
 import twitterLogo from './assets/twitter-logo.svg';
 import React, { useEffect, useState } from "react";
 import IgboLandingNFT from "./utils/IgboLandingNFT.json";
-import { ethers } from 'ethers'
+import { ethers } from 'ethers';
 
 
 // Constants
@@ -11,7 +11,7 @@ const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 const OPENSEA_LINK  = 'https://testnets.opensea.io/collection/igbolandingnft-1';
 
 // const CONTRACT_ADDRESS = "0xeDE07330860B19E442983742186eca0C8eF3e399"; // ALCHEMY
-const CONTRACT_ADDRESS = "0x48aDaC4Fc32483185a51091f2898C42400AF4754"; // ALCHEMY
+const CONTRACT_ADDRESS = "0x9F9619AdF88A9611576f09A66Be324Ca90eBa473"; // ALCHEMY
 const goerliChainId = "0x5";
 
 const App = () => {

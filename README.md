@@ -1,13 +1,32 @@
-## Running React on Repl.it
+# Ethereum NFT Collections
 
-[React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
+# Description
 
-[Vite](https://vitejs.dev/) is a blazing fast frontend build tool that includes features like Hot Module Reloading (HMR), optimized builds, and TypeScript support out of the box.
+A web3 ethereum NFT collection site that displays the list of mined nfts, and can be viewed in opensea.
 
-Using the two in conjunction is one of the fastest ways to build a web app.
+# Pre-requisites
 
-### Getting Started
-- Hit run
-- Edit [App.jsx](#src/App.jsx) and watch it live update!
+- Fundamental understanding of solidity
+- Fundamental understanding of React
 
-By default, Replit runs the `dev` script, but you can configure it by changing the `run` field in the `.replit` file.
+# Project structure
+
+The project has backend (igbo-landing-nfts) and frontend (igbolandingfront).
+
+```
+/igbo-landing-nft
+ /contracts
+ /scripts
+
+/igbolandingfront
+ /src
+ /utils
+```
+
+# Start Project
+
+Change the directory to the igbolandingfront and run the following:
+
+```
+npm run start
+```
